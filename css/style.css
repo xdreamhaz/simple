@@ -26,6 +26,11 @@ ul{
 	color: #ffffff;
 }
 
+.button_1:hover{
+	background: #e65a34; 
+	cursor: pointer;
+}
+
 .dark{
 	padding: 15px;
 	background: #35424a;
@@ -132,9 +137,20 @@ header a:hover{
 	padding: 10px; 
 }
 
+#boxes .box:hover{
+	background-color: #e6e6e6;
+}
+
 #boxes .box img{
 	width: 90px;
+	padding: 10px 10px; 
 }
+
+#boxes .box:hover img{
+	width: 100px;
+	padding: 5px; 
+}
+
 
 /* Sidebar */
 aside#sidebar{
@@ -170,6 +186,12 @@ footer{
 	padding: 20px;
 	margin-top: 20px;
 	text-align: center;
+}
+
+footer a, footer a:visited{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 /* Media Queries */
